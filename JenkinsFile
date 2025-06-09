@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git 'https://github.com/Second-Fiddle-VK/exp2.git"
+				git 'https://github.com/Second-Fiddle-VK/exp2.git'
 			}
 		}
 		stage('Build'){
